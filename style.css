@@ -1,3 +1,37 @@
+body{
+     color:Sage Green;
+}
+
 h1 {
     color: red ;
+}
+
+h2 {
+    color: green ;
+}
+
+h3 {
+    color: blue;
+}
+
+h4{
+    color: black;
+}
+
+h5{
+    color: white;
+}
+
+h6 {
+    background: linear-gradient(
+        90deg,
+        white,
+        black,
+        blue,
+        red,
+        green
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
